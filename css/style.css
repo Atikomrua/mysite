@@ -1,0 +1,128 @@
+body{
+    margin: 0px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #40514E;
+    background-color: #fafafa;
+}
+h1{
+    font-size: 5.625rem;
+    font-family: 'Sacramento', cursive;
+    margin-top: 50px auto 0px auto;
+    color: #66BFBF;
+    line-height: 2;
+}
+h2{
+    font-family: 'Poiret One', cursive;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+h3{
+    font-family: 'Josefin Slab', serif;
+    color: #11999E;
+}
+p{
+    padding-bottom: 20px;
+    line-height: 2;
+}
+hr{
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
+    border-color: #d2d0fe;
+}
+.intro{
+    width: 30%;
+    margin: auto;
+}
+.profilepic{
+    width: 200px;
+    height: auto;
+}
+.skill-row{
+    width: 50%;
+    margin: 50px auto 50px auto;
+    text-align: left;
+}
+.contact-message{
+    width: 40%
+    margin  40px auto;
+}
+.design{
+    width: 25%;
+    height: auto;
+    float: left;
+    margin-right: 30px;
+}
+.coding{
+    width: 25%;
+    height: auto;
+    float: right;
+    margin-left: 30px;
+}
+.top-container{
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+.middle-container{
+    margin: 100px 0px;
+}
+.bottom-container{
+    background-color: #40bfc1;
+    padding: 50px 0px 20px;
+}
+a{
+    color: #cadfdd;
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    margin: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    color: #EAF6F6;
+}
+.pro{
+    text-decoration: underline;
+}
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+.btn {
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:10px;
+	border:1px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Josefin Slab', serif;
+	font-size:19px;
+	padding:12px 37px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+.copyright{
+    color: #b1e8ed;
+    font-size: 0.95rem;
+    padding: 20px 0px;
+}
